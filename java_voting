@@ -1,5 +1,5 @@
 import java.io.*;
-class vote
+class vote //creation of class
 {
 public static void main "() throws IOException
 {
