@@ -6,7 +6,7 @@ public static void main "() throws IOException
 BufferedReader br=new BufferedReader (new InputStraemReader(System.in));
 System.out.println("Enter your age");
 int a=Integer.parseInt(br.readLine());
-if(a>=18)
+if(a>=18)//conditonal loop
 {
 System.out.println("you can vote");//the person can vote
 }
