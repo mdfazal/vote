@@ -3,7 +3,7 @@ class vote
 {
 public static void main "() throws IOException
 {
-BufferedReader br=new BufferedReader (new InputStraemReader(System.in));
+BufferedReader br=new BufferedReader (new InputStraemReader(System.in));//buffer class used
 System.out.println("Enter your age");
 int a=Integer.parseInt(br.readLine());
 if(a>=18)
